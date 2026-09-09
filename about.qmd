@@ -1,5 +1,9 @@
 ---
 title: "About"
 ---
+## I was born in Dalian, a city in northern China, and I've spent almost 20 years there. I went to Canada when I was 18 and entered University of Alberta to study. I majored in Astrophysics which covered lots of stuff about the solar system, the galaxy, and also the whole universe. This is the place that triggered my interest in data science. 
 
+## I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era.
+
+## I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.
 About this site

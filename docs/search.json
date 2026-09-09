@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "About this site"
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 9, 2026\n\n\nWeizhuo Zhang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Weizhuo Zhang",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m Weizhuo Zhang and I’m from China. I lived in Canada for almost 7 years. I’ve graduated from U of A and got my Astrophysics Bachelor’s degree, and then spent 1 year in London, UK pursing my MSc Astrophysics degree. I’ve worked as a product analyst for mobile games which applied simple data analysis to help the teams to make the right decision. I also did some web events UI/mechanism design for our game. I hope that I can learn more about programming with Python & R, ML skills, and higher level data manipulating skills from the MDS program.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Orientation day on campus."
+  },
+  {
+    "objectID": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
+    "href": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
+    "title": "About",
+    "section": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era.",
+    "text": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era."
+  },
+  {
+    "objectID": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
+    "href": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
+    "title": "About",
+    "section": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.",
+    "text": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.\nAbout this site"
   }
 ]
