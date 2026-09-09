@@ -1,7 +1,7 @@
 ---
 title: "About"
 ---
-## I was born in Dalian, a city in northern China, and I've spent almost 20 years there. I went to Canada when I was 18 and entered University of Alberta to study. I majored in Astrophysics which covered lots of stuff about the solar system, the galaxy, and also the whole universe. This is the place that triggered my interest in data science. 
+## I was born in Dalian, a city in northern China, and I've spent almost 20 years there. I went to Canada when I was 18 and entered University of Alberta to study. I majored in Astrophysics which covered lots of stuff about the solar system, the galaxy, and also the whole universe. This is the place that triggered my interest in data science. Then I went to UK to pursue my MSc degree, and went to Shanghai joining the mobile industry. 
 
 ## I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era.
 
