@@ -35,6 +35,7 @@ Then, in the R console, run:
 
 ```r
 renv::restore()
+Y
 ```
 
 After the restore is complete, exit R:
@@ -59,6 +60,7 @@ The rendered website is generated in the `docs/` directory, and just to preview 
 ```bash
 uv run quarto preview
 ```
+
 ## Where the data comes from
 
 Data Source
