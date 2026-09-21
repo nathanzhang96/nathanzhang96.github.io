@@ -8,6 +8,4 @@ about:
 I'm Weizhuo Zhang and I'm from China. I lived in Canada for almost 7 years. I've graduated from U of A and got my Astrophysics Bachelor's degree, and then spent 1 year in London, UK pursing my MSc Astrophysics degree. I've worked as a product analyst for mobile games which applied simple data analysis to help the teams to make the right decision. I also did some web events UI/mechanism design for our game. I hope that I can learn more about programming with Python & R, ML skills, and higher level data manipulating skills from the MDS program. 
 
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

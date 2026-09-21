@@ -1,0 +1,53 @@
+---
+title: "Exploring Penguin Body Mass Data with Python"
+author: "Weizhuo Zhang"
+date: 2026-09-21
+---
+
+## Data Source
+
+The data comes from the [Palmer Penguins dataset](https://allisonhorst.github.io/palmerpenguins/), collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program. The data is available under a [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+from palmerpenguins import load_penguins
+```
+
+## Data Cleaning
+
+Clean the data before doing analysis
+
+```{python}
+penguins = load_penguins()
+
+penguins_clean = penguins.dropna(subset=["species", "body_mass_g"])
+
+penguins_clean.head()
+```
+
+## Species Calculation 
+
+Calculate the body mass for each species
+
+```{python}
+penguins_clean.groupby("species")["body_mass_g"].mean()
+```
+
+## Figure of Body mass by species
+
+Apply the figure to show the comparison of body mass from different species
+
+```{python}
+#| label: fig-penguin-mass-python
+#| fig-cap: "Body mass of penguins by species."
+
+penguins_clean.boxplot(column="body_mass_g", by="species")
+plt.xlabel("Species")
+plt.ylabel("Body mass (g)")
+plt.suptitle("")
+plt.title("")
+plt.show()
+```
+
+The fgiure shows the body mass distribution of three penguin species. From the figure, we can see that Adelie and Chinstrap have similar range of body masses, while Gentoo has a much higher overall distribution than the former two species. 

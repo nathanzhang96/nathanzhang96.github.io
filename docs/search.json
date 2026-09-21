@@ -4,35 +4,14 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 9, 2026\n\n\nWeizhuo Zhang\n\n\n\n\n\nNo matching items"
+    "text": "Exploring Penguin Body Mass with R\n\n\n\n\n\n\n\n\nSep 21, 2026\n\n\nWeizhuo Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Penguin Body Mass Data with Python\n\n\n\n\n\n\n\n\nSep 21, 2026\n\n\nWeizhuo Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nMy first weeks in MDS\n\n\n\n\n\n\n\n\nSep 9, 2026\n\n\nWeizhuo Zhang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Weizhuo Zhang",
     "section": "",
-    "text": "I’m Weizhuo Zhang and I’m from China. I lived in Canada for almost 7 years. I’ve graduated from U of A and got my Astrophysics Bachelor’s degree, and then spent 1 year in London, UK pursing my MSc Astrophysics degree. I’ve worked as a product analyst for mobile games which applied simple data analysis to help the teams to make the right decision. I also did some web events UI/mechanism design for our game. I hope that I can learn more about programming with Python & R, ML skills, and higher level data manipulating skills from the MDS program.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "posts/first-weeks/index.html",
-    "href": "posts/first-weeks/index.html",
-    "title": "My first weeks in MDS",
-    "section": "",
-    "text": "Orientation day on campus.\n\n\nThe orientation was great. I felt excited to meet new people with different backgrounds and amazing instructors as well.\nThe first week of MDS was stressful because we had many new courses, and because my background was a non-CS background so I had to load tons of new stuff into my brain.\nThe workload actually suprised me. I am aware that the MDS is a accelerated program, but I still need more effort to keep up the pace."
-  },
-  {
-    "objectID": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
-    "href": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
-    "title": "About",
-    "section": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era.",
-    "text": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era."
-  },
-  {
-    "objectID": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
-    "href": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
-    "title": "About",
-    "section": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.",
-    "text": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.\nAbout this site"
+    "text": "I’m Weizhuo Zhang and I’m from China. I lived in Canada for almost 7 years. I’ve graduated from U of A and got my Astrophysics Bachelor’s degree, and then spent 1 year in London, UK pursing my MSc Astrophysics degree. I’ve worked as a product analyst for mobile games which applied simple data analysis to help the teams to make the right decision. I also did some web events UI/mechanism design for our game. I hope that I can learn more about programming with Python & R, ML skills, and higher level data manipulating skills from the MDS program."
   },
   {
     "objectID": "posts/penguins-r/index.html",
@@ -68,5 +47,61 @@
     "title": "Exploring Penguin Body Mass with R",
     "section": "Figure of Body mass by species",
     "text": "Figure of Body mass by species\nApply the figure to show the comparison of body mass from different species\n\nggplot(penguins_clean, aes(x = species, y = body_mass_g)) +\n  geom_boxplot() +\n  labs(x = \"Species\", y = \"Body mass (g)\")\n\n\n\n\n\n\n\nFigure 1: Body mass of penguins by species.\n\n\n\n\n\nThe fgiure shows the body mass distribution of three penguin species. From the figure, we can see that Adelie and Chinstrap have similar range of body masses, while Gentoo has a much higher overall distribution than the former two species."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Orientation day on campus.\n\n\nThe orientation was great. I felt excited to meet new people with different backgrounds and amazing instructors as well.\nThe first week of MDS was stressful because we had many new courses, and because my background was a non-CS background so I had to load tons of new stuff into my brain.\nThe workload actually suprised me. I am aware that the MDS is a accelerated program, but I still need more effort to keep up the pace."
+  },
+  {
+    "objectID": "posts/penguins-python/index.html",
+    "href": "posts/penguins-python/index.html",
+    "title": "Exploring Penguin Body Mass Data with Python",
+    "section": "",
+    "text": "The data comes from the Palmer Penguins dataset, collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program. The data is available under a CC0 license.\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
+  },
+  {
+    "objectID": "posts/penguins-python/index.html#data-source",
+    "href": "posts/penguins-python/index.html#data-source",
+    "title": "Exploring Penguin Body Mass Data with Python",
+    "section": "",
+    "text": "The data comes from the Palmer Penguins dataset, collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program. The data is available under a CC0 license.\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom palmerpenguins import load_penguins"
+  },
+  {
+    "objectID": "posts/penguins-python/index.html#data-cleaning",
+    "href": "posts/penguins-python/index.html#data-cleaning",
+    "title": "Exploring Penguin Body Mass Data with Python",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nClean the data before doing analysis\n\npenguins = load_penguins()\n\npenguins_clean = penguins.dropna(subset=[\"species\", \"body_mass_g\"])\n\npenguins_clean.head()\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nmale\n2007"
+  },
+  {
+    "objectID": "posts/penguins-python/index.html#species-calculation",
+    "href": "posts/penguins-python/index.html#species-calculation",
+    "title": "Exploring Penguin Body Mass Data with Python",
+    "section": "Species Calculation",
+    "text": "Species Calculation\nCalculate the body mass for each species\n\npenguins_clean.groupby(\"species\")[\"body_mass_g\"].mean()\n\nspecies\nAdelie       3700.662252\nChinstrap    3733.088235\nGentoo       5076.016260\nName: body_mass_g, dtype: float64"
+  },
+  {
+    "objectID": "posts/penguins-python/index.html#figure-of-body-mass-by-species",
+    "href": "posts/penguins-python/index.html#figure-of-body-mass-by-species",
+    "title": "Exploring Penguin Body Mass Data with Python",
+    "section": "Figure of Body mass by species",
+    "text": "Figure of Body mass by species\nApply the figure to show the comparison of body mass from different species\n\npenguins_clean.boxplot(column=\"body_mass_g\", by=\"species\")\nplt.xlabel(\"Species\")\nplt.ylabel(\"Body mass (g)\")\nplt.suptitle(\"\")\nplt.title(\"\")\nplt.show()\n\n\n\n\n\n\n\nFigure 1: Body mass of penguins by species.\n\n\n\n\n\nThe fgiure shows the body mass distribution of three penguin species. From the figure, we can see that Adelie and Chinstrap have similar range of body masses, while Gentoo has a much higher overall distribution than the former two species."
+  },
+  {
+    "objectID": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
+    "href": "about.html#i-did-the-undergrad-research-in-astrophysics-and-needed-some-data-analytics-skills-and-this-was-the-origin-for-my-interest-growing-in-data-science.-however-learning-all-the-new-stuff-which-involved-heavy-coding-was-diffcult-for-me-so-i-decided-to-improve-my-skills-by-attending-data-science.-furthermore-i-would-like-to-stay-refreshed-in-the-ai-era.",
+    "title": "About",
+    "section": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era.",
+    "text": "I did the undergrad research in astrophysics and needed some data analytics skills, and this was the origin for my interest growing in data science. However, learning all the new stuff which involved heavy coding was diffcult for me, so I decided to improve my skills by attending data science. Furthermore, I would like to stay refreshed in the AI era."
+  },
+  {
+    "objectID": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
+    "href": "about.html#i-like-playing-video-games-listening-to-pop-music-and-watching-netflix-out-of-the-data-science-routines.-i-also-like-swimming-gym-activities-but-i-got-a-bit-lazy-recently.-additionally-i-like-hiking-during-weekends-and-enjoying-a-peaceful-time-with-a-cup-of-coffee-in-a-silent-environment.",
+    "title": "About",
+    "section": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.",
+    "text": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.\nAbout this site"
   }
 ]
