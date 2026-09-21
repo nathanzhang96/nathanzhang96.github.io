@@ -33,5 +33,40 @@
     "title": "About",
     "section": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.",
     "text": "I like playing video games, listening to pop music, and watching Netflix out of the data science routines. I also like swimming gym activities, but I got a bit lazy recently. Additionally, I like hiking during weekends, and enjoying a peaceful time (with a cup of coffee) in a silent environment.\nAbout this site"
+  },
+  {
+    "objectID": "posts/penguins-r/index.html",
+    "href": "posts/penguins-r/index.html",
+    "title": "Exploring Penguin Body Mass with R",
+    "section": "",
+    "text": "The data comes from the Palmer Penguins dataset, collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program. The data is available under a CC0 license.\n\nlibrary(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "posts/penguins-r/index.html#data-source",
+    "href": "posts/penguins-r/index.html#data-source",
+    "title": "Exploring Penguin Body Mass with R",
+    "section": "",
+    "text": "The data comes from the Palmer Penguins dataset, collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program. The data is available under a CC0 license.\n\nlibrary(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "posts/penguins-r/index.html#data-cleaning",
+    "href": "posts/penguins-r/index.html#data-cleaning",
+    "title": "Exploring Penguin Body Mass with R",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nClean the data before doing analysis\n\npenguins_clean &lt;- penguins |&gt;\n  filter(!is.na(species), !is.na(body_mass_g))\n\nhead(penguins_clean)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n1 Adelie  Torgersen           39.1          18.7               181        3750\n2 Adelie  Torgersen           39.5          17.4               186        3800\n3 Adelie  Torgersen           40.3          18                 195        3250\n4 Adelie  Torgersen           36.7          19.3               193        3450\n5 Adelie  Torgersen           39.3          20.6               190        3650\n6 Adelie  Torgersen           38.9          17.8               181        3625\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "posts/penguins-r/index.html#species-calculation",
+    "href": "posts/penguins-r/index.html#species-calculation",
+    "title": "Exploring Penguin Body Mass with R",
+    "section": "Species Calculation",
+    "text": "Species Calculation\nCalculate the body mass for each species\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(mean_body_mass_g = mean(body_mass_g, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  species   mean_body_mass_g\n  &lt;fct&gt;                &lt;dbl&gt;\n1 Adelie               3701.\n2 Chinstrap            3733.\n3 Gentoo               5076."
+  },
+  {
+    "objectID": "posts/penguins-r/index.html#figure-of-body-mass-by-species",
+    "href": "posts/penguins-r/index.html#figure-of-body-mass-by-species",
+    "title": "Exploring Penguin Body Mass with R",
+    "section": "Figure of Body mass by species",
+    "text": "Figure of Body mass by species\nApply the figure to show the comparison of body mass from different species\n\nggplot(penguins_clean, aes(x = species, y = body_mass_g)) +\n  geom_boxplot() +\n  labs(x = \"Species\", y = \"Body mass (g)\")\n\n\n\n\n\n\n\nFigure 1: Body mass of penguins by species.\n\n\n\n\n\nThe fgiure shows the body mass distribution of three penguin species. From the figure, we can see that Adelie and Chinstrap have similar range of body masses, while Gentoo has a much higher overall distribution than the former two species."
   }
 ]
