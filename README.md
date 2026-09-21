@@ -46,6 +46,7 @@ q()
 
 ```markdown
 If prompted to save the workspace image when exiting R, choose `n`.
+```
 
 ## Where the built site lands
 
